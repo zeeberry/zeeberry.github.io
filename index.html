@@ -1,17 +1,37 @@
 <html>
   <head>
     <title>zainabebrahimi.com</title>
-    <link href="https://fonts.googleapis.com/css?family=Yesteryear" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Libre+Franklin|Yesteryear" rel="stylesheet">
     <style>
       .banner {
         display: flex;
+        align-items: center;
         justify-content: center;
+        color: #7c43bd;
+      }
+
+      .title {
         font-family: 'Yesteryear', cursive;
         font-size: 220px;
         line-height: 2px;
-        font-weight: 700;
         background: #4a148c;
-        color: #7c43bd;
+      }
+
+      .subtitle, 
+      .posts{
+        font-family: 'Libre Franklin', sans-serif;
+      }
+
+      .posts {
+        text-decoration: none;
+        color: #fff;
+        padding: 0px 4px;
+        letter-spacing: 1px;
+      }
+
+      nav {
+        background: #4a148c;
+        line-height: 8px;
       }
 
       .main {
@@ -23,9 +43,14 @@
     </style>
   </head>
   <body>
-    <a href="/about.html">about page</a>
+    <nav>
+      <a class="posts" href="/posts.html">posts</a>
+    </nav>
     <div class="main">
-      <div class="banner">Zainab</div>
+      <div class="banner">
+        <div class="title">Zainab</div>
+        <div class="subtitle">Software Engineer passionate about equity of access to tech eductaion.</div>
+      </div>
     </div>
   </body>
 </html>
